@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Irrigation Cover</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f4f9f4;
+            color: #2d3436;
+        }
+        .container {
+            text-align: center;
+            max-width: 700px;
+            padding: 40px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2d6a4f;
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #40916c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #2d6a4f;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>How much should we water our plants?</h1>
+        
+        <img src="figure0.png" alt="Plant Irrigation Visual">
+        
+        <p>To ensure healthy plant growth while conserving water, irrigation must target moisture level between <strong>field capacity</strong> and <strong>wilting point</strong>.</p>
+        <ul class="observation-list">
+        <li>Field capacity -> water content at water potential = -33 kPa</li>
+        <li>Wilting point -> water content at water potential = -1.5 MPa</li>
+        </ul>
+        
+        <a href="plant_simulator.html" class="btn">Start Simulator</a>
+    </div>
+
+</body>
+</html>
